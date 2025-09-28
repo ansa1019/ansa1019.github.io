@@ -1,0 +1,1 @@
+import{d as o,c,o as n,a as t,_ as a}from"./index-BhyvdHQs.js";const r=["id"],i=o({__name:"ProjectsSection",props:{id:{}},setup(s){return(d,e)=>(n(),c("section",{id:s.id,class:"section projects"},[...e[0]||(e[0]=[t("h2",{class:"title"},"projects",-1),t("p",null,"---施工中---",-1)])],8,r))}}),_=a(i,[["__scopeId","data-v-28fd57ce"]]);export{_ as default};
