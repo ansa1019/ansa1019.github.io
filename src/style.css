@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'openhuninn';
+    src: url('@/assets/fonts/jf-openhuninn-2.1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'beaver';
+    src: url('@/assets/fonts/justinbeaverfont-slim-monospaced.ttf') format('truetype');
+}
+
+:root {
+    --primary: #5f5449;
+    --second: #afa193;
+    --bg: #fcf3ea;
+    --nav-bg: #fcf3ea60;
+    --nav-h: 3.5rem;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'openhuninn';
+    color: var(--primary);
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background);
+}
+
+.page {
+    min-height: 100%;
+}
+
+.content {
+    padding: 8px 24px 24px;
+}
+
+.beaver {
+    font-family: 'beaver';
+}
+
+.section {
+    min-height: 60vh;
+    display: grid;
+    align-content: start;
+    gap: 1.75rem;
+    padding: 3rem 0;
+    scroll-margin-top: calc(var(--nav-h, 4rem) + 1rem)
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
