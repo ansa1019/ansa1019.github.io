@@ -63,6 +63,7 @@ onMounted(() => {
 <style scoped>
 .timeline {
   position: relative;
+  padding-top: 2.5rem;
 }
 
 .timeline::before {
@@ -159,22 +160,30 @@ onMounted(() => {
 
 @media (max-width: 640px) {
   .timeline::before {
-    left: 20px;
+    left: 1rem;
   }
 
   .timeline-item {
     width: 100%;
-    left: 0 !important;
+    left: 1rem !important;
     text-align: left !important;
   }
 
   .timeline-icon {
-    left: 20px;
     transform: translateX(0);
   }
 
   .timeline-content {
     margin-left: 3rem;
   }
+
+  .timeline-item.left .timeline-dot {
+  left: 0;
+}
+
+.timeline-item.right .timeline-dot {
+  left: 0;
+  transform: translateX(-50%);
+}
 }
 </style>

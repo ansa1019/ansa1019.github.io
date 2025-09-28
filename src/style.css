@@ -14,6 +14,7 @@
     --bg: #fcf3ea;
     --nav-bg: #fcf3ea60;
     --nav-h: 3.5rem;
+    --nav-m-h: 4.5rem;
 }
 
 * {
@@ -25,8 +26,10 @@
 html,
 body,
 #app {
-    height: 100%;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 html {
@@ -34,7 +37,7 @@ html {
 }
 
 body {
-    background: var(--background);
+    background: var(--bg);
 }
 
 .page {

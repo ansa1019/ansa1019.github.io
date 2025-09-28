@@ -180,6 +180,7 @@ const submitForm = async () => {
 
 @media (max-width: 768px) {
   .contact-container {
+    width: 80%;
     grid-template-columns: 1fr;
   }
 
