@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineAsyncComponent, type Component, onMounted, onBeforeUnmount, ref, watch, nextTick } from 'vue'
+import { defineAsyncComponent, nextTick, onBeforeUnmount, onMounted, ref, watch, type Component } from 'vue';
 
 type SectionId = 'about' | 'skills' | 'experience' | 'projects' | 'contact'
 const items: { id: SectionId; label: string }[] = [
@@ -85,6 +85,8 @@ watch(menuOpen, (val) => {
 })
 
 onBeforeUnmount(() => observer?.disconnect())
+
+alert("👋 Hello！感謝您來訪！\n這個網站是我用來學習 Vue 的練習作品，還在努力完工中，請耐心等候～✨");
 </script>
 
 
@@ -272,8 +274,7 @@ onBeforeUnmount(() => observer?.disconnect())
     display: none;
   }
 
-  .menu-btn {
-    display: flex;
+  .menu-btn {display: flex;
   }
 }
 </style>
