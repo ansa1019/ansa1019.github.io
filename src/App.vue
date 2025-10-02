@@ -86,7 +86,7 @@ watch(menuOpen, (val) => {
 
 onBeforeUnmount(() => observer?.disconnect())
 
-alert("👋 Hello！感謝您來訪！\n這個網站是我用來學習 Vue 的練習作品，還在努力完工中，請耐心等候～✨");
+alert("👋 Hello！感謝您來訪！\n這個網站是我用來學習Vue的作品，還在努力完工中～✨");
 </script>
 
 

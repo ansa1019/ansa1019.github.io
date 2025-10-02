@@ -34,7 +34,7 @@ defineProps<{ id: string }>()
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
-  text-align: justify;
+    text-align: justify;
 }
 
 .about h3 {
