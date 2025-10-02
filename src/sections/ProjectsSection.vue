@@ -24,8 +24,8 @@ const projects = [
   {
     title: "醫療系統",
     description: "於碩士期間獨立開發的研究專案，使用Laravel架構完成網站雛型與資料庫設計，並成功部署於AWS。平台設計為醫學相關應用，具備基礎的使用者操作介面與資料管理功能，後續可與醫學分析模組進行整合。本專案展現了我在網頁開發、資料庫規劃與雲端部署上的實作能力。",
-    image: "treament.png",
-    url: "/treament/"
+    image: "treatment.png",
+    url: "/treatment/"
   },
 ]
 </script>
