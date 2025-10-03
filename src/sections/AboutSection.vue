@@ -5,7 +5,7 @@
             <h3>熟悉網頁開發，具備 Laravel 與 Django 實務經驗，能獨立完成切版、API 串接與系統架構設計。<br>具備 Python 數據整理與自動化處理能力，能將需求轉化為具體可行的小功能。</h3>
             <p>喜歡把複雜內容整理成清晰易用的介面，並樂於與團隊合作解決問題。碩士期間累積了網頁開發與資料分析的經驗，目前專注提升 TypeScript 與 Vue 3，期望加入能持續成長與挑戰的團隊。</p>
             <ul class="bullets">
-                <li>網頁開發：Laravel / Vue / TypeScript / Django / SQL / RWD / AWS </li>
+                <li>網頁開發：Laravel / Django / Vue / TypeScript / SQL / RWD / AWS </li>
                 <li>資料分析：Python / GPT API</li>
             </ul>
         </div>

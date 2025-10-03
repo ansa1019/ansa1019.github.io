@@ -19,13 +19,13 @@ const projects = [
     title: "女性論壇",
     description: "碩士期間參與的團隊專案，主要負責後端開發，包含API設計與即時聊天室建置，支援前端功能運作。平台是一個女性論壇，提供月經紀錄、發文、留言、點讚、分享等互動功能，並具備即時聊天室、後台管理與檢舉機制，以確保社群的便利性與安全性。此專案展現了我在後端架構設計、即時通訊開發與系統整合上的能力。",
     image: "FJU_SDRC.png",
-    url: "/FJU_SDRC/"
+    url: "#"
   },
   {
     title: "醫療系統",
     description: "於碩士期間獨立開發的研究專案，使用Laravel架構完成網站雛型與資料庫設計，並成功部署於AWS。平台設計為醫學相關應用，具備基礎的使用者操作介面與資料管理功能，後續可與醫學分析模組進行整合。本專案展現了我在網頁開發、資料庫規劃與雲端部署上的實作能力。",
     image: "treatment.png",
-    url: "/treatment/"
+    url: "#"
   },
 ]
 </script>
@@ -86,6 +86,7 @@ const projects = [
 .projects a {
   text-decoration: none;
 }
+
 @media (min-width: 768px) {
   .projects-card {
     margin: 0;
