@@ -1,4 +1,4 @@
-import{d,r as _,e as p,c as r,o as a,a as s,F as u,f,g as h,t as i,_ as m}from"./index-D3_2BvqJ.js";const v=["id"],g={class:"timeline"},x={class:"timeline-dot"},I={class:"timeline-date"},A={class:"timeline-title"},L={class:"timeline-subtitle"},E=["innerHTML"],k=d({__name:"ExperienceSection",props:{id:{}},setup(l){const b=[{icon:"🎓",title:"碩士",subtitle:"國立屏東科技大學 資訊管理系",range:"2023/09 – 2025/06",desc:`碩士論文研究：
+import{d,r as _,o as p,c as r,a,b as s,F as u,f,g as h,t as i,_ as m}from"./index-DVDINfqV.js";const v=["id"],g={class:"timeline"},x={class:"timeline-dot"},I={class:"timeline-date"},A={class:"timeline-title"},L={class:"timeline-subtitle"},E=["innerHTML"],k=d({__name:"ExperienceSection",props:{id:{}},setup(l){const b=[{icon:"🎓",title:"碩士",subtitle:"國立屏東科技大學 資訊管理系",range:"2023/09 – 2025/06",desc:`碩士論文研究：
 設計並實作自動化文本分析流程，使用 <b>Python</b> 進行大規模資料處理與統計建模，結合 <b>爬蟲技術</b> 蒐集上市公司年報與財務資料，並透過 <b>OpenAI GPT API</b> 建立摘要與語意分析管線。後續以 <b>資料分析</b> 與迴歸模型驗證資訊科技能力對組織韌性的影響，熟悉資料清理、特徵萃取、語意相似度計算及統計驗證等技術。
 網站開發專案：
 1. 團隊專案：接手學長姐延續專案，3人組成團隊，主要負責 工作分配 與 100% 後端 <b>Django</b> 開發，並支援約 30% <b>Laravel</b> 前端，確保專案順利交付。
