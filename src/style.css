@@ -10,7 +10,8 @@
 
 :root {
     --primary: #5f5449;
-    --second: #afa193;
+    --second: #afa192;
+    --third: #f0edea;
     --bg: #fcf3ea;
     --nav-bg: #fcf3ea60;
     --nav-h: 3.5rem;
@@ -30,10 +31,7 @@ body,
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-}
-
-html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {

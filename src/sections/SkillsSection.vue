@@ -54,7 +54,7 @@ const skills = [
         title: "Others",
         progress: 80,
         color: "#9C27B0",
-        items: ["Git", "AWS", "Python", "GPT API"]
+        items: ["Git", "AWS", "Python", "GPT API", "PowerBuilder", "Genero"]
     }
 ]
 
