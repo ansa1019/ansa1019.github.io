@@ -1,0 +1,10 @@
+XAMPP start
+
+ansa
+cd C:\ANSA\website\ansa
+npm run dev
+
+uterusally
+cd C:\xampp\htdocs\uterusally\Api
+docker run -p 6379:6379 -d redis
+python -m daphne -b 0.0.0.0 -p 8001 Api.asgi:application
